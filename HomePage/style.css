@@ -1,0 +1,77 @@
+* {
+    font-size: 18px;
+}
+
+.hero-section-custom {
+    background-color: lightgray;
+    background-size: cover;
+    background-position: right;
+    height: 80vh;
+}
+
+@media (min-width:980px) {
+    .hero-section-custom {
+        background-image: url("img/pexels-mart-production-8436997.jpg");
+        height: 110vh;
+    }
+}
+
+.navbar-custom {
+    background-color: rgba(217, 217, 217, 0.5);
+    padding-left: 1%;
+}
+
+.hero-text-custom {
+    margin-top: 10%;
+    margin-left: 2%;
+}
+
+.button-custom {
+    margin-top: 60px;
+    margin-right: 100px;
+}
+
+.button-link-custom {
+    color: black;
+    text-decoration: none;
+    
+}
+
+.button-icon-custom {
+    margin-left: 30px;
+}
+
+.about-us {
+    background-color: #D5D7D2;
+}
+
+.carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.about-us-header {
+    margin-bottom: 30px;
+}
+
+.about-us-carousel {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about-us-text {
+    margin-bottom: 50px;
+}
+
+.services-header {
+    margin: 50px 0 50px 2%;
+}
+
+.services-button {
+    margin-left: 2%;
+}
+
+.services-button {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
