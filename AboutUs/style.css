@@ -1,4 +1,125 @@
+/* General styles */
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar Styles */
 .navbar-custom {
     background-color: rgba(217, 217, 217, 0.5);
     padding-left: 1%;
+}
+
+/* Hero Section style */
+.HeroSection {
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 35%, rgba(0, 0, 0, 0) 70%) no-repeat center top,
+        url(Utils/HeroSectionImage.jpg) 0 0 /cover;
+}
+
+.HeroSectionTitle {
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.HeroSectionContent {
+    width: 47%;
+    margin-left: 1%;
+}
+
+.HeroSectionText {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 30px;
+}
+
+/* Values Section style */
+.ValueSection {
+    background-color: #D5D7D2;
+}
+
+.ValuesCard {
+    max-height: 250px;
+}
+
+/* Who We Server Section style  */
+.WhoWeServeSection {
+    background-color: #e9e9e9;
+}
+
+.WWSPointInText {
+    background-color: gray;
+    padding-left: 20px;
+    min-height: 60px;
+    align-content: center;
+    font-size: 27px;
+}
+
+/* TimeLine Section style */
+.TimeLineSection {
+    box-sizing: border-box;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    background-color: #009F9D;
+    top: 0;
+    bottom: 0;
+    left: 10%;
+    border: 1px solid  #009F9D;
+    border-radius: 5px;
+    margin-left: -3px;
+}
+
+.container {
+    padding: 0;
+    position: relative;
+    margin: 100px 0;
+    width: 50%;
+    gap: 90px;
+}
+
+.content{
+    margin-top: 40px;
+}
+.container::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 16%;
+    background-color: #CDFFEB;
+    border: 15px solid #009F9D;
+    top: 45px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    width: 1000px !important;
+    left: 15%;
+}
+/* Innovation Section styles */
+.InnovationSection{
+    background-color: #D9D9D9;
+}
+.carousel{
+    max-height: 730px;
+}
+.carousel-inner{
+    max-height: 730px;
+}
+.carousel-images{
+    object-fit:cover;
 }
