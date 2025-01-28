@@ -9,7 +9,7 @@
     height: 80vh;
 }
 
-@media (min-width:980px) {
+@media (min-width:1120px) {
     .hero-section-custom {
         background-image: url("img/pexels-mart-production-8436997.jpg");
         height: 110vh;
@@ -27,8 +27,12 @@
 }
 
 .button-custom {
-    margin-top: 60px;
+    margin-top: 20px;
     margin-right: 100px;
+}
+
+.hero-btn-wrapper {
+    margin-top: 70px;
 }
 
 .button-link-custom {
@@ -67,11 +71,28 @@
     margin: 50px 0 50px 2%;
 }
 
-.services-button {
-    margin-left: 2%;
-}
-
-.services-button {
+.services-button-link {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
+.tech-custom h2 {
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tech-custom img {
+    width: 95%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.custom-border {
+    border: 2px solid #e2e8f0;
+}
+
+.blog-custom h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
