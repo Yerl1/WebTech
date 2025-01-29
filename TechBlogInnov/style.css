@@ -7,9 +7,13 @@
     --card_medium: 40;
     --card_large: 45;
 
-    --small_card_color: #D2E0FB;
+    /* --small_card_color: #D2E0FB;
     --medium_card_color: #9ACBD0;
-    --large_card_color:#A2D2DF;
+    --large_card_color:#A2D2DF; */
+
+    --small_card_color: #D5D7D2;
+    --medium_card_color: #D9D9D9;
+    --large_card_color:#bbbbbb;
 }
 /* General styles */
 body {
@@ -28,7 +32,7 @@ body {
     margin:0;
     padding:0;
     width: 100%;
-    position: absolute;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
 
@@ -40,7 +44,7 @@ body {
 
 .card{
     padding: 0;
-    margin: 15px 10px;
+    margin: 5px 5px;
     border-radius: var(--card_border_radius);
 
     background-color: #D9D9D9;
