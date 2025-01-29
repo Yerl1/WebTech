@@ -52,7 +52,6 @@
 
 .about-us {
     background-color: #D5D7D2;
-    height: 100vh;
 }
 
 .carousel-item img {
@@ -79,10 +78,6 @@
 
 .about-us-text h2 {
     margin-bottom: 50px;
-}
-
-.services-wrapper {
-    height: 100vh;
 }
 
 .services-cor .card {
