@@ -30,6 +30,9 @@
     margin-top: 10%;
     margin-left: 2%;
 }
+.Registration{
+    justify-self: end !important;
+}
 
 .button-custom {
     margin-top: 20px;

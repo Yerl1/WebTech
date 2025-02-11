@@ -1,0 +1,15 @@
+.header-margin-custom {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.navbar-custom {
+    background-color: rgba(217, 217, 217, 0.5);
+    padding-left: 1%;
+}
+
+.Form{
+    background-color:  rgba(157, 150, 150, 0.5);
+}
+#cardContainer{
+    background-color: rgba(176, 176, 176, 0.5);
+}
