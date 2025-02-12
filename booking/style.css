@@ -1,0 +1,36 @@
+body {
+    background-color: #EFEFEF;
+}
+
+.container-f {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+}
+
+.slot {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;   
+    transition: background-color 0.3s;
+}
+
+.slot:hover {
+    background-color: #218838;
+}
+
+.booked {
+    background-color: #dc3545 !important;
+    cursor: not-allowed;
+}
+
+.hidden {
+    display: none;
+}
