@@ -134,3 +134,12 @@
     background-color: #6C6C6C;
     color: white;
 }
+
+
+.chatBot{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width:75px;
+    height: 75px;
+}

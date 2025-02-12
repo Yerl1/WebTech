@@ -37,6 +37,7 @@ function printingDoctor(doctor) {
                         <h5 class="card-title">${"Dr. " + doctor.firstName + " " + doctor.lastName}</h5>
                         <p class="card-text"><small class="text-body-secondary">${doctor.specialization}</small></p>
                         <p class="card-text">${doctor.description}</p>
+                        <a href="../booking/index.html" class="card-text" style="text-decoration:none;"><span class="text-body-secondary" style="font-size:15px;">Book for consultation -></span></a>
                     </div>
                 </div>
             </div>
