@@ -12,6 +12,7 @@ $(document).ready(function () {
             contentType: "application/json",
             data: JSON.stringify({ message: userMessage }),
             success: function (response) {
+                // console.log(response);
                 appendMessage("bot", response.message);
             },
             error: function () {
@@ -31,7 +32,6 @@ $(document).ready(function () {
         `;
     
         $("#chat-box").append(messageHTML);
-        $("#chat-box").scrollTop($("#chat-box")[0].scrollHeight);
-    }
+    }; 
     
 });
